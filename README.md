@@ -13,3 +13,11 @@ how to
 
     <script src='{{ .Resources.GetMatch "/app.*.js" }}'></script>
 
+For example:
+
+    cd vueapp
+    npm run build # see the build script it copies things into mysite/state/vueapp
+
+    cd ../mysite/static/vueapp/js
+    mysite/static/vueapp/js $ grep -i jquery * # no results
+    mysite/static/vueapp/js $
