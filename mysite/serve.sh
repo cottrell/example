@@ -1,2 +1,2 @@
 #!/bin/sh
-hugo serve --buildDrafts
+hugo serve -w --buildDrafts
