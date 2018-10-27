@@ -2,7 +2,6 @@ Example of hugo and vue
 
 how to
     a) put ALL dependencies in here (not just the ones used in the site)
-    b) include this in hugo
 
     vueapp/dist/js $ lr
     total 1008
