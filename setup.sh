@@ -3,6 +3,10 @@ if [[ ! -d mysite ]]; then
     mkdir -p mysite
     cd mysite
     hugo new site .
+    cd themes
+    git clone https://github.com/alanorth/hugo-theme-bootstrap4-blog.git
+    cd ..
+    echo theme = "hugo-theme-bootstrap4-blog" >> config.toml
     cd -
 fi
 
